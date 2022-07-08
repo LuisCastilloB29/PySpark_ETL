@@ -135,6 +135,7 @@ SELECT
     M.TransactionOccurredWhen as Fecha_movimiento
 FROM 
 	WWImportersTransactional.movimientos as M
+LIMIT 2000
 	) AS TMP_MOVIMIENTOS'''
 movimientos = obtener_dataframe_de_bd(source_db_connection_string, sql_movimientos, db_user, db_psswd)
 movimientos.show(5)
@@ -155,7 +156,7 @@ noCumplenFormato.count(), movimientos.count()
 
 movimientos = movimientos.drop_duplicates()
 ## Filtrar por cantidad de movimientos viaje
-movimientos = movimientos.filter(movimientos["Cantidad"] < 5000000)
+#movimientos = movimientos.filter(movimientos["Cantidad"] < 5000000)
 movimientos.show(5)
 
 # --------  Load - Carga de los datos de Movimientos
