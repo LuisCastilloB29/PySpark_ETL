@@ -1,18 +1,4 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# Entrega: creación de ETLs con PySpark"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "## Ejecución ETL \t\n",
-    " ------ INICIA ETL DE PROVEEDORES -----
+ ------ INICIA ETL DE PROVEEDORES -----
 +------------+--------------------+---------+-------------+------------+----------+
 |ID_Proveedor|              Nombre|Dias_pago|Codigo_postal|ID_Categoria|ID_Persona|
 +------------+--------------------+---------+-------------+------------+----------+
@@ -130,37 +116,4 @@ None
 only showing top 5 rows
 
 [Stage 59:>                                                         (0 + 1) / 1]
------- FINALIZA ETL DE MOVIMIENTOS -----",
-    "\t"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.7.13"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 4
-}
+------ FINALIZA ETL DE MOVIMIENTOS -----
