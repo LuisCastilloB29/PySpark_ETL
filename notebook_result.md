@@ -1,3 +1,6 @@
+
+
+```
  ------ INICIA ETL DE PROVEEDORES -----
 +------------+--------------------+---------+-------------+------------+----------+
 |ID_Proveedor|              Nombre|Dias_pago|Codigo_postal|ID_Categoria|ID_Persona|
@@ -117,3 +120,4 @@ only showing top 5 rows
 
 [Stage 59:>                                                         (0 + 1) / 1]
 ------ FINALIZA ETL DE MOVIMIENTOS -----
+```
